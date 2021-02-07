@@ -24,7 +24,7 @@ body {
 }
 
 #not-found {
-    color: red;
+    font-weight: 500;
 }
 
 .detail-img {
