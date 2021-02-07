@@ -48,30 +48,30 @@ const foodInformation = food => {
     const foodDetails = document.getElementById("food-info");
     foodDetails.innerHTML = `
         <img width="350" height="200" class="img-fluid detail-img" src="${food.strMealThumb}">
-        <h1>${food.strMeal}</h1>
-        <h5>—: FOOD Details :—</h5>
+        <h1 class= "food-name">${food.strMeal}</h1>
+        <h5 style="color: white;">—: FOOD Details :—</h5>
         <ul class="list-group">
-            <li class="list-group-item ">
-                <input class="form-check-input me-1" type="checkbox" value="" Checked>
+            <li class="list-group-item list-group-item-action list-group-item-success">
+                <input class="form-check-input me-1 " type="checkbox" value="" Checked>
                 ${food.strIngredient1}
             </li>
-            <li class="list-group-item ">
+            <li class="list-group-item list-group-item-action list-group-item-secondary">
                 <input class="form-check-input me-1" type="checkbox" value="" Checked>
                 ${food.strIngredient2}
             </li>
-            <li class="list-group-item ">
+            <li class="list-group-item list-group-item-action list-group-item-success">
                 <input class="form-check-input me-1" type="checkbox" value="" Checked>
                 ${food.strIngredient3}
             </li>
-            <li class="list-group-item ">
+            <li class="list-group-item list-group-item-action list-group-item-secondary">
                 <input class="form-check-input me-1" type="checkbox" value="" Checked>
                 ${food.strIngredient4}
             </li>
-            <li class="list-group-item ">
+            <li class="list-group-item list-group-item-action list-group-item-success">
                 <input class="form-check-input me-1" type="checkbox" value="" Checked>
                 ${food.strIngredient5}
             </li>
-            <li class="list-group-item ">
+            <li class="list-group-item list-group-item-action list-group-item-secondary">
                 <input class="form-check-input me-1" type="checkbox" value="" Checked>
                 ${food.strIngredient6}
             </li>

@@ -25,3 +25,17 @@ body {
 .detail-img {
     border-radius: 15px;
 }
+
+.food-name {
+    background: goldenrod;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 34%;
+    margin-right: 34%;
+}
+
+.list-group {
+    margin-left: 34%;
+    margin-right: 34%;
+}
