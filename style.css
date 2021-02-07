@@ -1,0 +1,27 @@
+body {
+    background: grey;
+}
+
+#menuList {
+    color: goldenrod;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+#foodDetailInfo img {
+    border-radius: 1rem;
+}
+
+.search-btn {
+    color: white;
+    background: green;
+}
+
+#not-found {
+    color: red;
+}
+
+.detail-img {
+    border-radius: 15px;
+}
