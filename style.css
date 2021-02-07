@@ -1,5 +1,5 @@
 body {
-    background: grey;
+    background: rgb(8, 8, 15);
 }
 
 #menuList {
@@ -15,7 +15,11 @@ body {
 
 .search-btn {
     color: white;
-    background: green;
+    background: rgb(0, 107, 9);
+}
+
+.search-btn:hover {
+    color: honeydew;
 }
 
 .input-group {
