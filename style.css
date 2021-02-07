@@ -18,6 +18,11 @@ body {
     background: green;
 }
 
+.input-group {
+    width: 60%;
+    margin: auto;
+}
+
 #not-found {
     color: red;
 }
@@ -38,4 +43,9 @@ body {
 .list-group {
     margin-left: 34%;
     margin-right: 34%;
+}
+
+.list-group-item {
+    margin: 0;
+    text-align: left;
 }
