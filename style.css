@@ -36,8 +36,9 @@ body {
 }
 
 .food-name {
-    background: goldenrod;
+    background: rgba(0, 145, 155, 0.637);
     color: white;
+    padding: 1rem;
     border-radius: 10px;
     margin-top: 20px;
     margin-left: 34%;
